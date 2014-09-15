@@ -21,7 +21,7 @@
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="#">Find Site</a>
+                        <a class="custom-logo" href="#"><img src="images/logo.JPG" title="logo" alt="logo"> </a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -29,101 +29,95 @@
                             <li><a href="#">Featured Site</a></li>
                             <li><a href="#">My Site</a></li>
                             <li><a href="#">List a Site</a></li>
-                            <li><button type="button" class="btn btn-default navbar-btn">Log in</button></li>
-                            <li><button type="button" class="btn btn-default navbar-btn">Sign up</button></li>
+                            <button type="button" class="login btn btn-default navbar-btn" id="login">Log in</button>
+                            <button type="button" class="signup btn btn-default navbar-btn" id="signup">Sign up</button>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </div>
         </header>
-        <div class="container">
+        <div class="container home-row1">
             <div class="row">
-                <div class="col-md-6">
-                    <h5>BROWSE</h5>
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-default">MAP</button>
-                        <button type="button" class="btn btn-default">LIST</button>
+                <div class="col-md-3 col-md-offset-3">
+                    <div class="home-browse-search">
+                        <label>BROWSE</label>
+                        <ul>
+                            <li><a href="#">MAP</a></li>
+                            <li><a href="#">LIST</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <h5>FIND</h5>
-                    <form role="form">
-                        <input class="form-control" type="text" placeholder="POST CODE">
-                        <select class="form-control">
-                            <option value="">DA Status</option>
-                            <option value="">Approved</option>
-                            <option value="">Pending</option>
-                            <option value="">Raw Site</option>
-                        </select>
-                        <select class="form-control">
-                            <option value="">Scale</option>
-                            <option value="">Small</option>
-                            <option value="">Medium</option>
-                            <option value="">Large</option>
-                        </select>
+                <div class="col-md-3">
+                    <div class="home-browse-search">
+                        <label>FIND</label>
+                        <form role="form">
+                            <input class="form-control" type="text" placeholder="POST CODE">
+                            <select class="form-control">
+                                <option value="">DA Status</option>
+                                <option value="">Approved</option>
+                                <option value="">Pending</option>
+                                <option value="">Raw Site</option>
+                            </select>
+                            <select class="form-control">
+                                <option value="">Scale</option>
+                                <option value="">Small</option>
+                                <option value="">Medium</option>
+                                <option value="">Large</option>
+                            </select>
+                            <button type="submit" class="btn btn-default">Search Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                        <button type="submit" class="btn btn-default">Search Now</button>
-                    </form>
+        <div class="container-fluid custom-links">
+            <div class="container custom-links-inner-row-1">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/1.jpg" alt="pic1" class="img-circle">
+                        <h4>An agent that works for your</h4>
+                        <h5>sfsdfsdf fdsdfdfsd fdsdfdf fdfdfwef fdwefefef sfsdfsdf fdsdfdfsd fdsdfdf fdfdfwef fdwefefef/h5>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/2.jpg" alt="pic1" class="img-circle">
+                        <h4>An agent that works for your</h4>
+                        <h5>sfsdfsdf fdsdfdfsd fdsdfdf fdfdfwef fdwefefef sfsdfsdf fdsdfdfsd fdsdfdf fdfdfwef fdwefefef/h5>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/3.jpg" alt="pic1" class="img-circle">
+                        <h4>An agent that works for your</h4>
+                        <h5>sfsdfsdf fdsdfdfsd fdsdfdf fdfdfwef fdwefefef sfsdfsdf fdsdfdfsd fdsdfdf fdfdfwef fdwefefef/h5>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="images/1.jpg" alt="pic1" class="img-circle">
-                    <h4>An agent that works for your</h4>
-                    <h5>sfsdfsdf fdsdfdfsd fdsdfdf fdfdfwef fdwefefef sfsdfsdf fdsdfdfsd fdsdfdf fdfdfwef fdwefefef/h5>
-                </div>
-                <div class="col-md-4">
-                    <img src="images/2.jpg" alt="pic1" class="img-circle">
-                    <h4>An agent that works for your</h4>
-                    <h5>sfsdfsdf fdsdfdfsd fdsdfdf fdfdfwef fdwefefef sfsdfsdf fdsdfdfsd fdsdfdf fdfdfwef fdwefefef/h5>
-                </div>
-                <div class="col-md-4">
-                    <img src="images/3.jpg" alt="pic1" class="img-circle">
-                    <h4>An agent that works for your</h4>
-                    <h5>sfsdfsdf fdsdfdfsd fdsdfdf fdfdfwef fdwefefef sfsdfsdf fdsdfdfsd fdsdfdf fdfdfwef fdwefefef/h5>
+            <hr>
+            <div class="container custom-links-inner-row-2">
+                <div class="row">
+                    <ul>
+                        <li><a href="#"><img src="images/4.jpg" alt="pic4"></a></li>
+                        <li><a href="#"><img src="images/5.jpg" alt="pic4"></a></li>
+                        <li><a href="#"><img src="images/4.jpg" alt="pic4"></a></li>
+                        <li><a href="#"><img src="images/5.jpg" alt="pic4"></a></li>
+                        <li><a href="#"><img src="images/4.jpg" alt="pic4"></a></li>
+                        <li><a href="#"><img src="images/5.jpg" alt="pic4"></a></li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <hr>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2">
-                    <a href="#"><img src="images/4.jpg" alt="pic4"> </a>
-                </div>
-                <div class="col-md-2">
-                    <a href="#"><img src="images/5.jpg" alt="pic4"> </a>
-                </div>
-                <div class="col-md-2">
-                    <a href="#"><img src="images/4.jpg" alt="pic4"> </a>
-                </div>
-                <div class="col-md-2">
-                    <a href="#"><img src="images/5.jpg" alt="pic4"> </a>
-                </div>
-                <div class="col-md-2">
-                    <a href="#"><img src="images/4.jpg" alt="pic4"> </a>
-                </div>
-                <div class="col-md-2">
-                    <a href="#"><img src="images/5.jpg" alt="pic4"> </a>
-                </div>
-             </div>
         </div>
         <footer>
             <div class="navbar navbar-default" role="navigation">
                 <div class="container">
                     <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Terms&Privacy</a></li>
-                            <li><a href="#">Jobs</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><h6>@Findsite. All Rights Reserved. 2014-Sydney, Australia</h6></li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
+                    <ul class="nav navbar-nav navbar-center">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Terms&Privacy</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="copyright-mark"><h6>@Findsite. All Rights Reserved. 2014-Sydney, Australia</h6></div>
                 </div><!-- /.container-fluid -->
             </div>
         </footer>
