@@ -1,54 +1,30 @@
-@color-dark_gray: #414143;
-@color-black: #282828;
-@color-white: #ffffff;
-@color-navy: #004667;
-@color-sky_blue: #00a0e4;
-@color-light_gray: #a6a7a9;
-
 header {
   .navbar-nav {
-    li {
-      a {
+    .header-links {
         line-height:60px;
-      }
     }
-  }
-  .navbar-header {
-    margin-top: 15px;
-  }
-  .navbar-default {
-    .navbar-nav > li > a:hover{
+    a.header-links:hover {
+      background-color: @color-black;
+      color: @color-white;
+      border-color: @color-black
+    }
+    a.header-links:focus {
       background-color: @color-black;
       color: @color-white;
       border-color: @color-black;
     }
-    .navbar-nav > li > a:focus{
-      background-color: @color-black;
-      color: @color-white;
-      border-color: @color-black;
-    }
+  }
+  .custom-logo {
+    width:200px;
+    height:auto;
+    margin-top: 25px;
   }
   .navbar {
     margin-bottom: 0px;
   }
-  .login {
-    background-color: @color-black;
-    color: @color-white;
-    border-color: @color-black;
-    padding: 10px 15px;
-    margin-top: 24px;
-    margin-left: 10px;
-  }
-  .signup {
-    background-color: @color-sky_blue;
-    color: @color-white;
-    border-color: @color-sky_blue;
-    padding: 10px 15px;
-    margin-top: 24px;
-    margin-left: 10px;
-  }
   .btn {
-    border-radius: 4px;
+    margin-top: 25px;
+    margin-left: 10px;
   }
 }
 
