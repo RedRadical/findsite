@@ -1,0 +1,96 @@
+.list-sites {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  .sort-label {
+    float: left;
+    color: @color-white;
+    background-color: @color-sky_blue;
+    padding: 6px 10px 6px 20px;
+  }
+  .listsites-dropdown-menu {
+    background-color: @color-navy;
+    border-radius: 0px;
+    margin-left: 91px;
+    margin-top: -1px;
+    padding: 0px;
+    font-family: "open_sansbold",sans-serif;
+    text-transform: uppercase;
+
+    .item-listsites-dropdown-menu {
+      color: @color-white;
+      padding: 2px 76px;
+    }
+    .item-listsites-dropdown-menu:hover {
+      background-color: @color-sky_blue;
+    }
+  }
+  .list-table {
+    float: left;
+    margin-top: 10px;
+    background-color: @color-white;
+    border: 1px solid @color-light_gray;
+    width: 90%;
+    .site-type-img {
+      float: left;
+      height: 70px;
+      width: auto;
+      margin: 20px;
+
+    }
+    .site-info {
+      float: left;
+      font-family: "open_sanssemibold",sans-serif;
+      text-transform: uppercase;
+      .suburb-name {
+        font-family: "open_sansbold",sans-serif;
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      .col-left {
+        float: left;
+        margin-right: 30px;
+      }
+      .col-right {
+        float: left;
+      }
+      .listed-time {
+        font-size: 12px;
+        font-family: "open_sansitalic",sans-serif;
+        text-transform: lowercase;
+      }
+      .one-site-buttons {
+        line-height: 50px;
+        .blueroundcornerbtn-short {
+          margin-right: 6px;
+        }
+      }
+    }
+  }
+  .list-pagination {
+    width: 90%;
+    .page-indicator {
+       text-transform: lowercase;
+       font-size: 11px;
+       float: left;
+     }
+    .custom-pagination {
+      float: right;
+       margin: 0px;
+      font-family: "open_sanssemibold",sans-serif;
+      font-size: 11px;
+      li {
+        a {
+          color: @color-black;
+          padding: 2px 5px;
+          border: none;
+          span {
+            background-color: @color-sky_blue;
+            color: @color-white;
+            font-size: 9px;
+            padding: 2px;
+          }
+        }
+      }
+    }
+  }
+}
