@@ -21,21 +21,40 @@
       text-align: center;
       color: @color-black;
     }
-  .user-profile-tab:focus{
+  li.active > .user-profile-tab:hover, li.active > .user-profile-tab:focus {
     background-color: @color-light-blue;
+  }
+  li.active {
+    .user-profile-tab {
+      background-color: @color-light-blue;
+    }
   }
   .search-box {
     width: 60%;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    .btn {
+      border-radius: 0px;
+    }
+
   }
   .site-list-table {
     height: 500px;
     overflow: auto;
     .list-table {
       border: none;
+      margin-bottom: 0px;
 
+    }
+  }
+  .tab-content {
+    background-color: @color-light-blue;
+    .list-table {
+      background-color: @color-light-blue;
+      td {
+        border-top: none;
+        border-bottom: 1px solid @color-light_gray;
+      }
     }
   }
  }
