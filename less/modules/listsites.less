@@ -29,45 +29,20 @@
     margin-top: 10px;
     background-color: @color-white;
     border: 1px solid @color-light_gray;
-    width: 90%;
+    width: 100%;
     .site-type-img {
       float: left;
       height: 70px;
       width: auto;
-      margin: 20px;
+      margin: 20px 30px 0px 20px;
 
     }
-    .site-info {
-      float: left;
-      font-family: "open_sanssemibold",sans-serif;
-      text-transform: uppercase;
-      .suburb-name {
-        font-family: "open_sansbold",sans-serif;
-        font-size: 16px;
-        margin-bottom: 10px;
-      }
-      .col-left {
-        float: left;
-        margin-right: 30px;
-      }
-      .col-right {
-        float: left;
-      }
-      .listed-time {
-        font-size: 12px;
-        font-family: "open_sansitalic",sans-serif;
-        text-transform: lowercase;
-      }
-      .one-site-buttons {
-        line-height: 50px;
-        .blueroundcornerbtn-short {
-          margin-right: 6px;
-        }
-      }
+    td {
+      border-top: 1px solid @color-light_gray;
     }
   }
   .list-pagination {
-    width: 90%;
+    width: 100%;
     .page-indicator {
        text-transform: lowercase;
        font-size: 11px;
@@ -91,6 +66,150 @@
           }
         }
       }
+    }
+  }
+}
+.site-info {
+  font-family: "open_sanssemibold",sans-serif;
+  text-transform: uppercase;
+  .suburb-name {
+    font-family: "open_sansbold",sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .col-left {
+    float: left;
+    margin-right: 30px;
+  }
+  .col-right {
+    float: left;
+    margin-right: 30px;
+  }
+}
+.listed-time {
+  font-size: 12px;
+  font-family: "open_sansitalic",sans-serif;
+  text-transform: lowercase;
+  margin-left: 120px;
+  margin-top: 5px;
+}
+.one-site-buttons {
+  margin-left: 120px;
+  clear: both;
+  .blueroundcornerbtn-short {
+    margin-right: 6px;
+  }
+}
+.backtosearch {
+  margin-bottom: 10px;
+  .backtosearch-link {
+    color: @color-sky_blue;
+    font-family: "open_sansregular",sans-serif;
+    text-transform: uppercase;
+    span {
+      font-size: 12px;
+      margin-right: 5px;
+    }
+  }
+  .backtosearch-link:hover {
+    text-decoration: none;
+    background-color: @color-navy;
+    color: @color-white;
+  }
+}
+.site-details {
+  border:1px solid @color-light_gray;
+  width: 100%;
+  .site-address {
+    font-family: "open_sanssemibold",sans-serif;
+    font-size: 16px;
+    width: 50%;
+    padding: 15px 0px 0px 15px;
+  }
+  .site-location-on-google-map {
+    img {
+      width: 100%;
+      padding: 15px;
+    }
+  }
+  .site-info {
+    padding-left: 15px;
+    margin-bottom: 20px;
+    .col-left {
+      margin-right: 80px;
+    }
+    .col-right {
+      margin-right: 80px;
+    }
+  }
+  .separator {
+    clear: both;
+    padding-top: 1px;
+    .site-details-hr {
+       border-style: 1px solid;
+       border-color: @color-light_gray;
+       width: 95%;
+     }
+  }
+  .about-the-site {
+    padding-left: 15px;
+    .about-title {
+      font-family: "open_sansbold",sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .about-content {
+      font-family: "open_sansregular",sans-serif;
+    }
+  }
+  .site-features {
+    padding-left: 15px;
+    .features-title{
+      font-family: "open_sansbold",sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .features-content {
+      .features-table {
+        margin-bottom: 0px;
+        td {
+          border-top: none;
+          padding-left: 0px;
+         }
+      }
+      .one-feature {
+        font-family: "open_sansregular",sans-serif;
+        span {
+          color: @color-sky_blue;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .site-details-buttons {
+    padding-left: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    .blueroundcornerbtn-short {
+      width: 200px;
+      margin: 5px;
+    }
+  }
+}
+.get-more-button-div {
+  text-align: center;
+  margin-top: 20px;
+  a {
+    span {
+      font-size: 24px;
+      color: @color-sky_blue;
+    }
+  }
+  a:hover {
+    span {
+      color: @color-navy;
     }
   }
 }
