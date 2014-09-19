@@ -9,6 +9,7 @@ var paths = {
     'knockout-mapping': 'vendor/knockout.mapping',
     'google-map-info-box': 'vendor/google-map-info-box',
     'bootstrap':'vendor/bootstrap.min',
+    'jquery-slick':'vendor/slick.min',
 
     /* Custom JS */
     'main': 'main',
@@ -36,6 +37,9 @@ require.config({
         },
         "knockout-validation": {
             deps: ["knockout"]
+        },
+        "jquery-slick":{
+            deps: ['jquery']
         }
     },
     // Prevent cache for dev.

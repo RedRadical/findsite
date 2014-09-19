@@ -15,11 +15,11 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body style="background:url('images/bg.jpg')">
+    <body>
     <div class="wrapper">
         <header>
             <div class="navbar navbar-default navbar-static-top" role="navigation">
-                <div class="container">
+                <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <a href="index.php"><img class="custom-logo" src="images/logo.png"></a>
@@ -31,13 +31,14 @@
                             <li><a class="header-links" href="findasite.php">Find a Site</a></li>
                             <li><a class="header-links" href="usersprofile.php">My Site</a></li>
                             <li><a class="header-links" href="list.php">List a Site</a></li>
-                            <div class="buttons">
-                                <button type="button" class="btn btn-default navbar-btn blackroundcornerbtn-short" id="login">Log in</button>
-                                <button type="button" class="btn btn-default navbar-btn blueroundcornerbtn-short" id="signup">Sign up</button>
-                                <button type="button" class="btn btn-default navbar-btn language-switch" id="switchtozh">中文</button>
-                            </div>
+                            <li>
+                                <div class="buttons">
+                                    <button type="button" class="btn btn-default navbar-btn blackroundcornerbtn-short" id="login">Log in</button>
+                                    <button type="button" class="btn btn-default navbar-btn blueroundcornerbtn-short" id="signup">Sign up</button>
+                                    <button type="button" class="btn btn-default navbar-btn language-switch" id="switchtozh">中文</button>
+                                </div>
+                            </li>
                         </ul>
-
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </div>

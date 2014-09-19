@@ -8,9 +8,12 @@
 require_once("includes/header.php");
 ?>
 <div id="main" data-controller="home" class="content">
-    <div class="container home-row1">
+    <div class="container-fluid" id="home-map">
+        <div id="home-map-canvas">
+
+        </div>
         <div class="row">
-            <div class="col-md-3">
+            <div id="home-map-box">
                 <div class="home-browse-search">
                     <label>BROWSE</label>
                     <div class="map-list-switch">
@@ -29,25 +32,99 @@ require_once("includes/header.php");
                             <option value="">Raw Site</option>
                         </select>
                         <select class="form-control">
-                            <option value="">Scale</option>
-                            <option value="">Small</option>
-                            <option value="">Medium</option>
-                            <option value="">Large</option>
+                            <option value="">SCALE</option>
+                            <option value="1">&lt; 50</option>
+                            <option value="2">50 - 100</option>
+                            <option value="3">100 and above</option>
+                        </select>
+                        <select class="form-control">
+                            <option value="">PRICE</option>
+                            <option>&lt; 5 millions</option>
+                            <option>5 - 20 millions</option>
+                            <option>20 millions and above</option>
                         </select>
                         <button type="submit" class="btn btn-default blubtn-long">Search Now</button>
                     </form>
                 </div>
             </div>
-            <div class="col-md-3 col-md-offset-6">
-                <div class="expend-button">
-                    <button class="btn btn-primary btn-expend" type="submit">
-                        <span class="glyphicon glyphicon-fullscreen"></span>
-                    </button>
+            <div id="expend-button">
+                <button class="btn btn-primary btn-expend" type="submit">
+                    <span class="glyphicon glyphicon-fullscreen"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="home-carousel">
+                <div class="carousel-box">
+                    <div class="inner clearfix">
+                        <a href="#"><img src="images/image1.jpg" alt/></a>
+                        <div class="carousel-info">
+                            <div class="status color-approved">Approved</div>
+                            <div class="description"><a href="#">$5,000,000 40 Units 10 Retails</a></div>
+                            <div class="location"><span class="glyphicon glyphicon-map-marker"></span> Surry Hill</div>
+                            <div class="agent">
+                                <img src="images/sample10.jpg" class="img-circle"/> <span>Listed By <a href="#">Agent A</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-box">
+                    <div class="inner clearfix">
+                        <a href="#"><img src="images/image1.jpg" alt/></a>
+                        <div class="carousel-info">
+                            <div class="status color-approved">Approved</div>
+                            <div class="description"><a href="#">$5,000,000 40 Units 10 Retails</a></div>
+                            <div class="location"><span class="glyphicon glyphicon-map-marker"></span> Surry Hill</div>
+                            <div class="agent">
+                                <img src="images/sample10.jpg" class="img-circle"/> <span>Listed By <a href="#">Agent A</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-box">
+                    <div class="inner clearfix">
+                        <a href="#"><img src="images/image1.jpg" alt/></a>
+                        <div class="carousel-info">
+                            <div class="status color-approved">Approved</div>
+                            <div class="description"><a href="#">$5,000,000 40 Units 10 Retails</a></div>
+                            <div class="location"><span class="glyphicon glyphicon-map-marker"></span> Surry Hill</div>
+                            <div class="agent">
+                                <img src="images/sample10.jpg" class="img-circle"/> <span>Listed By <a href="#">Agent A</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-box">
+                    <div class="inner clearfix">
+                        <a href="#"><img src="images/image1.jpg" alt/></a>
+                        <div class="carousel-info">
+                            <div class="status color-approved">Approved</div>
+                            <div class="description"><a href="#">$5,000,000 40 Units 10 Retails</a></div>
+                            <div class="location"><span class="glyphicon glyphicon-map-marker"></span> Surry Hill</div>
+                            <div class="agent">
+                                <img src="images/sample10.jpg" class="img-circle"/> <span>Listed By <a href="#">Agent A</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-box">
+                    <div class="inner clearfix">
+                        <a href="#"><img src="images/image1.jpg" alt/></a>
+                        <div class="carousel-info">
+                            <div class="status color-approved">Approved</div>
+                            <div class="description"><a href="#">$5,000,000 40 Units 10 Retails</a></div>
+                            <div class="location"><span class="glyphicon glyphicon-map-marker"></span> Surry Hill</div>
+                            <div class="agent">
+                                <img src="images/sample10.jpg" class="img-circle"/> <span>Listed By <a href="#">Agent A</a></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
     <div class="container-fluid custom-links">
         <div class="container custom-links-inner-row-1">
             <div class="row">
