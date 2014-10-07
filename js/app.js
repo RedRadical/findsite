@@ -48,11 +48,12 @@ require.config({
 
 // Start the app:
 require(['main',
+	'bootstrap',
     'knockout',
     'knockout-mapping',
     'jquery',
     'alertify'
-], function (main, knockout, komapping) {
+], function (main, bootstrap, knockout, komapping) {
     window.ko = knockout;
     window.ko.mapping = komapping;
     window.alertify = Alertify.dialog;
