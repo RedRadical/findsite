@@ -6765,6 +6765,7 @@ label {
   border: none;
   color: #414143;
   font-size: 35px;
+  padding: 0;
 }
 .btn-expend:hover,
 .btn-expend:focus {

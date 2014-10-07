@@ -17,8 +17,13 @@ define(['require',
         var mapOptions = {
             disableDoubleClickZoom: true,
             disableDefaultUI: true,
-            center: new google.maps.LatLng(-33.881902, 151.151772),
-            zoom: 10
+            zoomControl: true,
+            zoomControlOptions: {
+                style: google.maps.ZoomControlStyle.DEFAULT,
+                position: google.maps.ControlPosition.RIGHT_CENTER
+            },
+            center: new google.maps.LatLng(-33.813470, 150.889474),
+            zoom: 11
         };
         new google.maps.Map(document.getElementById("home-map-canvas"), mapOptions);
     }
