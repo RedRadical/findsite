@@ -21,7 +21,7 @@
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                        <a href="index.php"><img class="custom-logo" src="/images/logo.png"></a>
+                        <a href="/"><img class="custom-logo" src="/images/logo.png"></a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse">
@@ -29,12 +29,12 @@
                             <li><a class="header-links" href="/site">Find a Site</a></li>
                             <li><a class="header-links" href="/user">My Site</a></li>
                             <li><a class="header-links" href="#">List a Site</a></li>
-                            <li><a class="header-links" href="/agent">Agents</a></li>
+                            <!--<li><a class="header-links" href="/agent">Agents</a></li>-->
                             <li>
                                 <div class="buttons">
                                     <button type="button" class="btn btn-default navbar-btn blackroundcornerbtn-short" id="login">Log in</button>
                                     <button type="button" class="btn btn-default navbar-btn blueroundcornerbtn-short" id="signup">Sign up</button>
-                                    <button type="button" class="btn btn-default navbar-btn language-switch" id="switchtozh">中文</button>
+                                    <!--<button type="button" class="btn btn-default navbar-btn language-switch" id="switchtozh">中文</button>-->
                                 </div>
                             </li>
                         </ul>
