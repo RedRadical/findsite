@@ -4,8 +4,8 @@ include(VIEW_SHARED_PATH . 'header.php');
     <div id="main" data-controller="home" class="content home">
         <div class="home-warp">
             <div class="inner-warp">
-                <h1> find the right development site</h1>
-                <p>we have over 20000 sites to choose from</p>
+                <h1>Find the Right Development Site</h1>
+                <p>We have over 20000 sites to choose from</p>
             </div>
         </div>
         <div class="home-search">
