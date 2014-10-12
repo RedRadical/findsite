@@ -17,6 +17,6 @@
         </footer>
     </div>
 
-    <script data-main="js/app.js" src="js/vendor/require.js"></script>
+    <script data-main="/js/app.js" src="/js/vendor/require.js"></script>
     </body>
 </html>

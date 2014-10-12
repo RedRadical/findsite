@@ -1,11 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: xxfei
- * Date: 18/09/14
- * Time: 4:21 PM
- */
-require_once("includes/header.php");
+include(VIEW_SHARED_PATH . 'header.php');
 ?>
     <div class="content">
         <div class="container-fluid horizontal-search">
@@ -50,7 +44,7 @@ require_once("includes/header.php");
                 </div>
             </div>
         </div>
-     </div>
+    </div>
 <?php
-require_once("includes/footer.php");
+include(VIEW_SHARED_PATH . 'footer.php');
 ?>
