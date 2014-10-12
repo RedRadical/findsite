@@ -71,9 +71,10 @@ include(VIEW_SHARED_PATH . 'header.php');
         <div class="container home-second-part">
             <div class="row rowone">
                 <div class="col-md-12">
-                    <div class="col-one">
-                        <img class="rowone-img" src="images/homepic1.jpg">
-                    </div>
+                    <ul id="homes-lider" class="col-one">
+                        <li><img class="rowone-img" src="images/homepic1.jpg"></li>
+                        <li><img class="rowone-img" src="images/homepic1.jpg"></li>
+                    </ul>
                 </div>
             </div>
             <div class="row rowtwo">

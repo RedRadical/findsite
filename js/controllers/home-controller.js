@@ -1,7 +1,8 @@
 "use strict";
 
 define(['require',
-    'exports'], function (require,exports) {
+    'exports',
+    'jquery-bx-slider'], function (require,exports,boxSlider) {
 
     var homeSearchViewModel;
 
@@ -15,6 +16,12 @@ define(['require',
         }
 
         ko.applyBindings(homeSearchViewModel);
+
+        $('#homes-lider').bxSlider({
+            pager: false,
+            nextText: "&#xe080;",
+            prevText: "&#xe079;"
+        });
     }
 
     exports.init = init;

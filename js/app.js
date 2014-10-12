@@ -10,6 +10,7 @@ var paths = {
     'google-map-info-box': 'vendor/google-map-info-box',
     'bootstrap':'vendor/bootstrap.min',
     'jquery-slick':'vendor/slick.min',
+    'jquery-bx-slider':'vendor/jquery.bxslider.min',
 
     /* Custom JS */
     'main': 'main',
@@ -39,6 +40,9 @@ require.config({
             deps: ["knockout"]
         },
         "jquery-slick":{
+            deps: ['jquery']
+        },
+        "jquery-bx-slider":{
             deps: ['jquery']
         }
     },
