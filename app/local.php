@@ -14,4 +14,4 @@ define('DB_PASSWORD', 'findsite');
 define('DB_HOST', 'localhost');
 
 /* Web */
-define('VIEW_SHARED_PATH', 'C:/Projects/_sam/FindSite2/Dev/app/FindSite/View/Shared/');
+define('VIEW_SHARED_PATH', ABSPATH . 'FindSite/View/Shared/');
