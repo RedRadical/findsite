@@ -4,15 +4,14 @@ header {
       line-height:60px;
       font-family: "open_sansbold",sans-serif;
     }
-    a.header-links:hover {
+    .active a.header-links,
+    .active a.header-links:hover,
+    .active a.header-links:focus,
+    a.header-links:hover,
+    a.header-links:focus{
       background-color: @color-black;
       color: @color-white;
       border-color: @color-black
-    }
-    a.header-links:focus {
-      background-color: @color-black;
-      color: @color-white;
-      border-color: @color-black;
     }
   }
   .custom-logo {

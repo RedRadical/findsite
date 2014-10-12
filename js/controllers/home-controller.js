@@ -20,7 +20,8 @@ define(['require',
         $('#homes-lider').bxSlider({
             pager: false,
             nextText: "&#xe080;",
-            prevText: "&#xe079;"
+            prevText: "&#xe079;",
+            preloadImages: "all"
         });
     }
 

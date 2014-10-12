@@ -26,9 +26,9 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a class="header-links" href="/site">Find a Site</a></li>
-                            <li><a class="header-links" href="/user">My Site</a></li>
-                            <li><a class="header-links" href="#">List a Site</a></li>
+                            <li id="nav-find-a-site"><a class="header-links" href="/site">Find a Site</a></li>
+                            <li id="nav-my-site"><a class="header-links" href="/user">My Site</a></li>
+                            <li id="nav-list-a-site"><a class="header-links" href="/site/add">List a Site</a></li>
                             <!--<li><a class="header-links" href="/agent">Agents</a></li>-->
                             <li>
                                 <div class="buttons">

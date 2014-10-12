@@ -26,7 +26,7 @@ var paths = {
 };
 
 require.config({
-    baseUrl: 'js',
+    baseUrl: '/js',
     waitSeconds: 60,
     paths: paths,
     shim: {

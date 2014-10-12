@@ -6833,11 +6833,10 @@ header .navbar-nav .header-links {
   line-height: 60px;
   font-family: "open_sansbold", sans-serif;
 }
-header .navbar-nav a.header-links:hover {
-  background-color: #282828;
-  color: #ffffff;
-  border-color: #282828;
-}
+header .navbar-nav .active a.header-links,
+header .navbar-nav .active a.header-links:hover,
+header .navbar-nav .active a.header-links:focus,
+header .navbar-nav a.header-links:hover,
 header .navbar-nav a.header-links:focus {
   background-color: #282828;
   color: #ffffff;
@@ -6875,6 +6874,7 @@ footer h6 {
 }
 footer .navbar {
   border-radius: 0px;
+  border: none;
   margin-bottom: 0px;
 }
 .home {

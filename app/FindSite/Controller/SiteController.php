@@ -23,7 +23,11 @@ class SiteController extends BaseController{
         $this->render('Site/list');
     }
 
-    public function detailAction($id){
+    public function detailAction(){
         $this->render('Site/detail');
     }
-} 
+
+    public function addAction(){
+        $this->render('Site/add');
+    }
+}
