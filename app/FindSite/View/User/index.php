@@ -46,9 +46,9 @@ include(VIEW_SHARED_PATH . 'header.php');
 
                             </div>
                             <div class="one-site-buttons">
-                                <button type="button" class="btn btn-default blueroundcornerbtn-short" id="save">Email</button>
-                                <button type="button" class="btn btn-default blueroundcornerbtn-short" id="enquire">delete</button>
-                                <button type="button" class="btn btn-default blueroundcornerbtn-short" id="view">VIEW FULL LISTING</button>
+                                <button type="button" class="btn btn-default blueroundcornerbtn-short" data-click="contact">Email</button>
+                                <button type="button" class="btn btn-default blueroundcornerbtn-short">delete</button>
+                                <button type="button" class="btn btn-default blueroundcornerbtn-short">VIEW FULL LISTING</button>
                             </div>
                             <div class="listed-time">Listed for 5 months</div>
                         </div>
@@ -69,9 +69,9 @@ include(VIEW_SHARED_PATH . 'header.php');
                                     <div class="da-status">DA STATUS: <span class="color-rawsite">rawsite</span></div>
                                 </div>
                                 <div class="one-site-buttons">
-                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" id="save">Email</button>
-                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" id="enquire">delete</button>
-                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" id="view">VIEW FULL LISTING</button>
+                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" data-click="contact">Email</button>
+                                    <button type="button" class="btn btn-default blueroundcornerbtn-short">delete</button>
+                                    <button type="button" class="btn btn-default blueroundcornerbtn-short">VIEW FULL LISTING</button>
                                 </div>
                                 <div class="listed-time">Listed for 5 months</div>
                             </div>
@@ -93,9 +93,9 @@ include(VIEW_SHARED_PATH . 'header.php');
                                     <div class="da-status">DA STATUS: <span class="color-pending">pending</span></div>
                                 </div>
                                 <div class="one-site-buttons">
-                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" id="save">Email</button>
-                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" id="enquire">delete</button>
-                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" id="view">VIEW FULL LISTING</button>
+                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" data-click="contact">Email</button>
+                                    <button type="button" class="btn btn-default blueroundcornerbtn-short">delete</button>
+                                    <button type="button" class="btn btn-default blueroundcornerbtn-short">VIEW FULL LISTING</button>
                                 </div>
                                 <div class="listed-time">Listed for 5 months</div>
                             </div>
@@ -117,9 +117,9 @@ include(VIEW_SHARED_PATH . 'header.php');
                                     <div class="da-status">DA STATUS: <span class="color-approved">APPROVED</span></div>
                                 </div>
                                 <div class="one-site-buttons">
-                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" id="save">Email</button>
-                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" id="enquire">delete</button>
-                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" id="view">VIEW FULL LISTING</button>
+                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" data-click="contact">Email</button>
+                                    <button type="button" class="btn btn-default blueroundcornerbtn-short">delete</button>
+                                    <button type="button" class="btn btn-default blueroundcornerbtn-short">VIEW FULL LISTING</button>
                                 </div>
                                 <div class="listed-time">Listed for 5 months</div>
                             </div>
@@ -141,9 +141,9 @@ include(VIEW_SHARED_PATH . 'header.php');
                                     <div class="da-status">DA STATUS: <span class="color-approved">APPROVED</span></div>
                                 </div>
                                 <div class="one-site-buttons">
-                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" id="save">Email</button>
-                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" id="enquire">delete</button>
-                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" id="view">VIEW FULL LISTING</button>
+                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" data-click="contact">Email</button>
+                                    <button type="button" class="btn btn-default blueroundcornerbtn-short">delete</button>
+                                    <button type="button" class="btn btn-default blueroundcornerbtn-short">VIEW FULL LISTING</button>
                                 </div>
                                 <div class="listed-time">Listed for 5 months</div>
                             </div>
@@ -165,9 +165,9 @@ include(VIEW_SHARED_PATH . 'header.php');
                                     <div class="da-status">DA STATUS: <span class="color-approved">APPROVED</span></div>
                                 </div>
                                 <div class="one-site-buttons">
-                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" id="save">Email</button>
-                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" id="enquire">delete</button>
-                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" id="view">VIEW FULL LISTING</button>
+                                    <button type="button" class="btn btn-default blueroundcornerbtn-short" data-click="contact">Email</button>
+                                    <button type="button" class="btn btn-default blueroundcornerbtn-short">delete</button>
+                                    <button type="button" class="btn btn-default blueroundcornerbtn-short">VIEW FULL LISTING</button>
                                 </div>
                                 <div class="listed-time">Listed for 5 months</div>
                             </div>

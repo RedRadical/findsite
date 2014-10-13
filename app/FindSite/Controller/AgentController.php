@@ -18,4 +18,8 @@ class AgentController extends BaseController{
     public function indexAction(){
         $this->render('Agent/index');
     }
+
+    public function contactAction(){
+        $this->render('Agent/contact');
+    }
 } 

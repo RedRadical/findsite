@@ -33,11 +33,14 @@ $app->add(new \Slim\Middleware\SessionCookie(array(
 $app->addRoutes(array(
     '/'            => 'Home:index',
     '/agent'      => 'Agent:index',
+    '/agent/contact' => 'Agent:contact',
     '/site'       => 'Site:index',
     '/site/list' => 'Site:list',
     '/site/add'  => 'Site:add',
     '/site/detail/:id'  => 'Site:detail',
-    '/user'       => 'User:index'
+    '/user'       => 'User:index',
+    '/user/login' => 'User:login',
+    '/user/register' => 'User:register'
 ));
 
 /* init error handler*/

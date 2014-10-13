@@ -1,11 +1,12 @@
 "use strict";
 
 define(['require',
-    'exports'], function (require,
-                              exports) {
+    'exports',
+    'jquery-fancybox'], function (require,exports, fancyBox) {
 
     function init() {
         activeMenu();
+        initFancyBox();
     }
 
     function activeMenu(){
@@ -21,6 +22,36 @@ define(['require',
                 $('#nav-my-site').addClass('active');
                 break;
         }
+    }
+
+    function initFancyBox(){
+        $('*[data-click="login"]').click(function(){
+            loadPopup('/user/login');
+        });
+
+        $('*[data-click="register"]').click(function(){
+            loadPopup('/user/register');
+        });
+
+        $('*[data-click="contact"]').click(function(){
+            loadPopup('/agent/contact');
+        });
+    }
+
+    function loadPopup(url){
+        $.fancybox({
+            href: url,
+            type: 'ajax',
+            afterClose: function () {
+
+            },
+            afterLoad:function() {
+
+            },
+            beforeShow: function () {
+
+            }
+        });
     }
 
     exports.init = init;

@@ -18,4 +18,12 @@ class UserController extends BaseController{
     function indexAction(){
         $this->render('User/index');
     }
+
+    function loginAction(){
+        $this->render('User/login');
+    }
+
+    function registerAction(){
+        $this->render('User/register');
+    }
 } 

@@ -32,8 +32,8 @@
                             <!--<li><a class="header-links" href="/agent">Agents</a></li>-->
                             <li>
                                 <div class="buttons">
-                                    <button type="button" class="btn btn-default navbar-btn blackroundcornerbtn-short" id="login">Log in</button>
-                                    <button type="button" class="btn btn-default navbar-btn blueroundcornerbtn-short" id="signup">Sign up</button>
+                                    <button type="button" class="btn btn-default navbar-btn blackroundcornerbtn-short" id="login" data-click="login">Log in</button>
+                                    <button type="button" class="btn btn-default navbar-btn blueroundcornerbtn-short" id="signup" data-click="register">Sign up</button>
                                     <!--<button type="button" class="btn btn-default navbar-btn language-switch" id="switchtozh">中文</button>-->
                                 </div>
                             </li>

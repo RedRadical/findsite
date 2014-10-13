@@ -11,6 +11,7 @@ var paths = {
     'bootstrap':'vendor/bootstrap.min',
     'jquery-slick':'vendor/slick.min',
     'jquery-bx-slider':'vendor/jquery.bxslider.min',
+    'jquery-fancybox':'vendor/jquery.fancybox',
 
     /* Custom JS */
     'main': 'main',
@@ -43,6 +44,9 @@ require.config({
             deps: ['jquery']
         },
         "jquery-bx-slider":{
+            deps: ['jquery']
+        },
+        "jquery-fancybox":{
             deps: ['jquery']
         }
     },
