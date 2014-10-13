@@ -25,7 +25,7 @@
         </div>
         <div class="form-group">
 
-            <input type="Site preference(option)" class="form-control" id="suburb" placeholder="site-prefer">
+            <input type="site-prefer)" class="form-control" id="suburb" placeholder="Site preference(option)">
 
         </div>
         <div class="form-group">
