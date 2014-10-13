@@ -8,7 +8,7 @@ define(['require',
 
     function init() {
         homeSearchViewModel = {
-            optionsIsShown: ko.observable(false)
+            optionsIsShown: ko.observable(true)
         };
 
         homeSearchViewModel.toggleOptions = function(){

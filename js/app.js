@@ -19,11 +19,14 @@ var paths = {
     /* Controllers */
     'base-controller' : 'controllers/base-controller',
     'home-controller': 'controllers/home-controller',
+    'site-controller': 'controllers/site-controller',
+    'site-list-controller' : 'controllers/site-list-controller',
 
     /* Services */
     'site-service': 'services/site-service',
     /* Modules */
-    'map-module': 'modules/map-module'
+    'map-module': 'modules/map-module',
+    'search-bar-module' : 'modules/search-bar-module'
 };
 
 require.config({

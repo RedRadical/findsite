@@ -17,7 +17,7 @@ include(VIEW_SHARED_PATH . 'header.php');
                             Search
                         </button>
                     </div>
-                    <div id="home-search-optional" style="display: none;" data-bind="visible: optionsIsShown()">
+                    <div id="home-search-optional" data-bind="visible: optionsIsShown()">
                         <div class="form-group">
                             <label for="propertytype">Property Type</label>
                             <select class="form-control">

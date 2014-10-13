@@ -3,11 +3,15 @@
 define(['require',
     'exports',
     'base-controller',
-    'home-controller'], function (
+    'home-controller',
+    'site-controller',
+    'site-list-controller'], function (
     require,
     exports,
     baseController,
-    homeController) {
+    homeController,
+    siteController,
+    siteListController) {
 
     function init() {
         /*
@@ -30,6 +34,12 @@ define(['require',
         switch (controllerName){
             case 'home':
                 homeController.init();
+                break;
+            case 'site':
+                siteController.init();
+                break;
+            case 'site-list':
+                siteListController.init();
                 break;
         }
     }
