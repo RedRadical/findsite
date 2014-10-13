@@ -42,6 +42,7 @@ define(['require',
         $.fancybox({
             href: url,
             type: 'ajax',
+            padding:0,
             afterClose: function () {
 
             },
