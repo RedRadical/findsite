@@ -28,9 +28,9 @@ include(VIEW_SHARED_PATH . 'header.php');
 
                     </div>
                     <div class="form-group">
-                        <div class="">
+
                             <textarea type="address" class="form-control" id="address" rows="2" placeholder="Address"></textarea>
-                        </div>
+
                     </div>
                     <div class="form-group">
 
