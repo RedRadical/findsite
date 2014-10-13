@@ -2,16 +2,10 @@
 
 define(['require',
     'exports',
-    'base-controller',
-    'home-controller',
-    'site-controller',
-    'site-list-controller'], function (
+    'base-controller'], function (
     require,
     exports,
-    baseController,
-    homeController,
-    siteController,
-    siteListController) {
+    baseController) {
 
     function init() {
         /*
@@ -33,13 +27,19 @@ define(['require',
         var controllerName = $('#main').data('controller');
         switch (controllerName){
             case 'home':
-                homeController.init();
+                require(['home-controller'], function (homeController) {
+                    homeController.init();
+                });
                 break;
             case 'site':
-                siteController.init();
+                require(['site-controller'], function (siteController) {
+                    siteController.init();
+                });
                 break;
             case 'site-list':
-                siteListController.init();
+                require(['site-list-controller'], function (siteListController) {
+                    siteListController.init();
+                });
                 break;
         }
     }

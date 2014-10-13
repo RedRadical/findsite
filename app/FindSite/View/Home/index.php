@@ -64,7 +64,7 @@ include(VIEW_SHARED_PATH . 'header.php');
                 </form>
                 <div class="btn-option">
                     <a href="javascript:;" data-bind="click: toggleOptions, visible: optionsIsShown()">Less options <span class="glyphicon glyphicon-chevron-up" data-bind=""></span></a>
-                    <a href="javascript:;" data-bind="click: toggleOptions, visible: !optionsIsShown()">More options <span class="glyphicon glyphicon-chevron-down" data-bind=""></span></a>
+                    <a href="javascript:;" data-bind="click: toggleOptions, visible: !optionsIsShown()" style="display:none;">More options <span class="glyphicon glyphicon-chevron-down" data-bind=""></span></a>
                 </div>
             </div>
         </div>
