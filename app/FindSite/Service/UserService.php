@@ -9,6 +9,19 @@
 namespace FindSite\Service;
 
 
-class UserService {
+class UserService extends BaseService {
 
+    function __construct(){
+        parent::__construct();
+    }
+
+    public function create($user){
+        $user['date_created'] = date('Y-m-d H:i:s');
+        return $this->db->user()->insert($user);
+    }
+
+    public function update($user, $data){
+        $data['date_updated'] = date('Y-m-d H:i:s');
+        return $user->update($data);
+    }
 } 

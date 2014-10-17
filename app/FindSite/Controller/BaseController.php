@@ -26,4 +26,20 @@ class BaseController extends \SlimController\SlimController{
             $this->currentUser = null;
         }
     }
+
+    protected function getRequestBody(){
+        $this->requestBody = $this->app->request->getBody();
+
+        if(!is_array($this->requestBody)){
+            throw new \Exception('Not a valid JSON request. Please check your data.', 10005);
+        }
+    }
+
+    protected function json($result) {
+        echo \FindSite\Infrastructure\Helper\ResponseHelper::json($this->app, $result);
+    }
+
+    protected function success(){
+        echo \FindSite\Infrastructure\Helper\ResponseHelper::json($this->app, $message= 'success');
+    }
 } 
