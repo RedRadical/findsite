@@ -12,6 +12,7 @@ var paths = {
     'jquery-slick':'vendor/slick.min',
     'jquery-bx-slider':'vendor/jquery.bxslider.min',
     'jquery-fancybox':'vendor/jquery.fancybox',
+    'google-map-marker-clusterer':'vendor/markerclusterer',
 
     /* Custom JS */
     'main': 'main',
