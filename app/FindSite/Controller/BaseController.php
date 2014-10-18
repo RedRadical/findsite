@@ -35,6 +35,14 @@ class BaseController extends \SlimController\SlimController{
         }
     }
 
+    protected function validate($fields){
+        foreach ($fields as $field) {
+            if(!isset($this->requestBody[$field])){
+                throw new \Exception( $field .' is required', 10006);
+            }
+        }
+    }
+
     protected function json($result) {
         echo \FindSite\Infrastructure\Helper\ResponseHelper::json($this->app, $result);
     }

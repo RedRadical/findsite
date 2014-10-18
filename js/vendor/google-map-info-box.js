@@ -759,22 +759,17 @@ InfoBox.prototype.hide = function () {
  * @param {Map|StreetViewPanorama} map
  * @param {MVCObject} [anchor]
  */
-InfoBox.prototype.open = function (map, anchor) {
+InfoBox.prototype.open = function (map, position) {
 
   var me = this;
 
-  if (anchor) {
-
-    this.position_ = anchor.getPosition();
-    this.moveListener_ = google.maps.event.addListener(anchor, "position_changed", function () {
-      me.setPosition(this.getPosition());
-    });
+  if (position) {
+    this.position_ = position;
   }
 
   this.setMap(map);
 
   if (this.div_) {
-
     this.panBox_();
   }
 };

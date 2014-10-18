@@ -28,6 +28,10 @@ class SiteController extends BaseController{
     }
 
     public function addAction(){
-        $this->render('Site/add');
+        if($this->app->request->isGet()){
+            $this->render('Site/add');
+        }else{
+
+        }
     }
 }

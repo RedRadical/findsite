@@ -24,18 +24,28 @@ class UserController extends BaseController{
     }
 
     function loginAction(){
-        $this->render('User/login');
+        if($this->app->request->isGet()){
+            $this->render('User/login');
+        }else{
+            $this->requestBody();
+            $this->validate(array('email', 'password'));
+
+            //TODO validate password
+        }
     }
 
     function registerAction(){
         if($this->app->request->isGet()){
             $this->render('User/register');
         }else{
+            $this->getRequestBody();
+            $this->validate(array('first_name','last_name', 'email', 'password'));
+
             $user = array(
-                'first_name' => 'Sam',
-                'last_name' => 'Wang',
-                'email' => 'sam.wang@nways.com.au',
-                'password' => '12345'
+                'first_name' => $this->requestBody['first_name'],
+                'last_name' => $this->requestBody['last_name'],
+                'email' => $this->requestBody['email'],
+                'password' => $this->requestBody['password'] //TODO hash password
             );
 
             $result = $this->userService->create($user);

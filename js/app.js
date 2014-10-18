@@ -13,6 +13,7 @@ var paths = {
     'jquery-bx-slider':'vendor/jquery.bxslider.min',
     'jquery-fancybox':'vendor/jquery.fancybox',
     'google-map-marker-clusterer':'vendor/markerclusterer',
+    'google-map-infobox': 'vendor/google-map-info-box',
 
     /* Custom JS */
     'main': 'main',
