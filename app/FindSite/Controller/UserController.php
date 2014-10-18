@@ -39,11 +39,11 @@ class UserController extends BaseController{
             $this->render('User/register');
         }else{
             $this->getRequestBody();
-            $this->validate(array('first_name','last_name', 'email', 'password'));
+            $this->validate(array('firstName','lastName', 'email', 'password'));
 
             $user = array(
-                'first_name' => $this->requestBody['first_name'],
-                'last_name' => $this->requestBody['last_name'],
+                'first_name' => $this->requestBody['firstName'],
+                'last_name' => $this->requestBody['lastName'],
                 'email' => $this->requestBody['email'],
                 'password' => $this->requestBody['password'] //TODO hash password
             );

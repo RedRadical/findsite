@@ -26,9 +26,12 @@ var paths = {
 
     /* Services */
     'site-service': 'services/site-service',
+    'user-service': 'services/user-service',
     /* Modules */
     'map-module': 'modules/map-module',
-    'search-bar-module' : 'modules/search-bar-module'
+    'search-bar-module' : 'modules/search-bar-module',
+    'login-module': 'modules/login-module',
+    'register-module':'modules/register-module'
 };
 
 require.config({

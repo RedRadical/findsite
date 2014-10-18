@@ -7950,6 +7950,9 @@ footer .navbar {
   color: #282828;
   font-size: 12px;
 }
+.popup-page .validationMessage {
+  color: #ff0000;
+}
 #site-infobox {
   background: #ffffff;
   width: 270px;

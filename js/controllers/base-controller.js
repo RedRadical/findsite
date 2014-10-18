@@ -2,7 +2,8 @@
 
 define(['require',
     'exports',
-    'jquery-fancybox'], function (require,exports, fancyBox) {
+    'jquery-fancybox',
+    'register-module'], function (require,exports, fancyBox, registerModule) {
 
     function init() {
         activeMenu();
@@ -44,13 +45,21 @@ define(['require',
             type: 'ajax',
             padding:0,
             afterClose: function () {
-
+                switch (url){
+                    case '/user/register':
+                        registerModule.clean();
+                        break;
+                }
             },
             afterLoad:function() {
 
             },
             beforeShow: function () {
-
+                switch(url){
+                    case '/user/register':
+                        registerModule.init();
+                        break;
+                }
             }
         });
     }

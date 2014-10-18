@@ -2,21 +2,21 @@
 <div class="popup-page">
     <div class="form-title">SIGN UP TO FINDSITE</div>
     <div class="container-fluid">
-        <form class="form-horizontal popup-form" role="form">
+        <form id="form-register" class="form-horizontal popup-form" role="form">
 			<div class="form-group">
-				<input type="first-name" class="form-control" id="firstname" placeholder="First name">
+				<input type="text" data-bind="value: firstName" name="firstName" class="form-control" placeholder="First name">
 			</div>
 			<div class="form-group">
-				<input type="last-name" class="form-control" id="suburb" placeholder="Last name">
+				<input type="text" data-bind="value: lastName" name="lastName" class="form-control" placeholder="Last name">
 			</div>
 			<div class="form-group">
-				<input type="email" class="form-control" id="suburb" placeholder="Your email">
+				<input type="email" data-bind="value: email" name="email" class="form-control" placeholder="Your email">
 			</div>
 			<div class="form-group">
-				<input type="password" class="form-control" id="suburb" placeholder="Your password">
+				<input type="password" data-bind="value: password" name="password" class="form-control" placeholder="Your password">
 			</div>
 			<div class="form-group">
-				<input type="site-prefer)" class="form-control" id="suburb" placeholder="Site preference(option)">
+				<input type="text" class="form-control" id="suburb" placeholder="Site preference(option)">
 			</div>
 			<div class="form-group">
 				<select class="form-control">
@@ -46,7 +46,7 @@
 				<p class="declear-section">By submitting your listing you confirm that you accept the <a href="#">Terms of services</a> and <a href="#">Privacy Policy</a></p>
 			</div>
 			<div class="form-group">
-				<button type="submit" class="btn btn-default blubtn-long">Sign up</button>
+				<button data-bind="click: register" type="submit" class="btn btn-default blubtn-long">Sign up</button>
 			</div>
 		</form>
     </div>
