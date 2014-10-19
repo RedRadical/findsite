@@ -1,20 +1,24 @@
-"use strict";
+ "use strict";
 
 define(['require',
     'exports',
     'user-service',
     'knockout-validation'], function (require, exports, userService, koValidation) {
 
-    var userViewModel, $registerForm;
+    var userViewModel,$registerForm;
 
     function init(){
         $registerForm = $('#form-register');
+
 
         userViewModel = {
             firstName: ko.observable('').extend({ required: true,maxLength: 50 }),
             lastName: ko.observable('').extend({ required: true,maxLength: 50 }),
             email: ko.observable('').extend({ required: true, email: true, maxLength: 50 }),
-            password: ko.observable('').extend({ required: true, minLength:6, maxLength: 50 })
+            password: ko.observable('').extend({ required: true, minLength:6, maxLength: 50 }),
+            siteType:ko.observable(''),
+            daStatus:ko.observable(''),
+            sitePrice:ko.observable('')
         }
         userViewModel.errors = ko.validation.group(userViewModel);
 

@@ -15,31 +15,31 @@
 			<div class="form-group">
 				<input type="password" data-bind="value: password" name="password" class="form-control" placeholder="Your password">
 			</div>
+            <div class="form-group">
+                <label class="label">Site preference(option)</label>
+            </div>
 			<div class="form-group">
-				<input type="text" class="form-control" id="suburb" placeholder="Site preference(option)">
-			</div>
-			<div class="form-group">
-				<select class="form-control">
-					<option value="">Scale</option>
-					<option value="">Unit</option>
-					<option value="">House</option>
-					<option value="">Apartment</option>
+				<select data-bind="value: siteType" class="form-control">
+                    <option value="0">Type</option>
+                    <option value="1">Unit</option>
+                    <option value="2">House</option>
+                    <option value="3">Apartment</option>
 				</select>
 			</div>
 			<div class="form-group">
-				<select class="form-control">
-					<option value="">DA status</option>
-					<option value="">Raw</option>
-					<option value="">Approved</option>
-					<option value="">Pending</option>
+				<select data-bind="value: daStatus" class="form-control">
+					<option value="0">DA status</option>
+					<option value="1">Raw</option>
+					<option value="2">Approved</option>
+					<option value="3">Pending</option>
 				</select>
 			</div>
 			<div class="form-group">
-				<select class="form-control">
-					<option value="">Price</option>
-					<option value="">&lt 50</option>
-					<option value="">50 - 100</option>
-					<option value="">&gt 100</option>
+				<select data-bind="value: sitePrice" class="form-control">
+					<option value="0">Price</option>
+					<option value="1">&lt 50</option>
+					<option value="2">50 - 100</option>
+					<option value="3">&gt 100</option>
 				</select>
 			</div>
 			<div class="form-group">

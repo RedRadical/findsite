@@ -39,13 +39,16 @@ class UserController extends BaseController{
             $this->render('User/register');
         }else{
             $this->getRequestBody();
-            $this->validate(array('firstName','lastName', 'email', 'password'));
+            $this->validate(array('firstName','lastName', 'email', 'password','siteType'));
 
             $user = array(
                 'first_name' => $this->requestBody['firstName'],
                 'last_name' => $this->requestBody['lastName'],
                 'email' => $this->requestBody['email'],
-                'password' => $this->requestBody['password'] //TODO hash password
+                'password' => $this->requestBody['password'], //TODO hash password
+                'prefer_type'=> $this->requestBody['siteType'],
+                'prefer_da_status'=> $this->requestBody['daStatus'],
+                'prefer_price_high'=> $this->requestBody['sitePrice'],
             );
 
             $result = $this->userService->create($user);
