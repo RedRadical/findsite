@@ -26,4 +26,4 @@ class SiteService extends BaseController{
         $data['date_updated'] = date('Y-m-d H:i:s');
         return $site->update($data);
     }
-} 
+}

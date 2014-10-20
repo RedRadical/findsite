@@ -11,8 +11,11 @@ namespace FindSite\Controller;
 
 class SiteController extends BaseController{
 
+    private $siteService;
+
     function __construct(){
         parent::__construct();
+        $this->siteService = new \FindSite\Service\SiteService();
     }
 
     public function indexAction(){
@@ -31,7 +34,25 @@ class SiteController extends BaseController{
         if($this->app->request->isGet()){
             $this->render('Site/add');
         }else{
+            $this->getRequestBody();
+            $this->validate(array('siteType','suburb', 'address', 'daStatus','price','description'));
 
+            $site = array(
+                'type' => $this->requestBody['siteType'],
+                'suburb' => $this->requestBody['suburb'],
+                'address' => $this->requestBody['address'],
+                'dastatus' => $this->requestBody['daStatus'],
+                'price'=> $this->requestBody['price'],
+                'description'=> $this->requestBody['description'],
+            );
+
+            $result = $this->siteService->create($site);
+
+            if($result){
+                return $this->success();
+            }else{
+                throw new \Exception('Site creation failed');
+            }
         }
     }
 }
