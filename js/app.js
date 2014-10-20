@@ -23,6 +23,7 @@ var paths = {
     'home-controller': 'controllers/home-controller',
     'site-controller': 'controllers/site-controller',
     'site-list-controller' : 'controllers/site-list-controller',
+    'add-site-controller' : 'controllers/add-site-controller',
 
     /* Services */
     'site-service': 'services/site-service',
@@ -31,7 +32,8 @@ var paths = {
     'map-module': 'modules/map-module',
     'search-bar-module' : 'modules/search-bar-module',
     'login-module': 'modules/login-module',
-    'register-module':'modules/register-module'
+    'register-module':'modules/register-module',
+    'site-module': 'modules/site-module'
 };
 
 require.config({

@@ -34,7 +34,7 @@ define(['require',
     function register(){
         if (userViewModel.errors().length == 0) {
             userService.register(userViewModel, function(data){
-                if (data.errorCode > 0) {
+                if (data.error) {
                     alert(data.message);
                 } else {
                     window.location.href = '/user';

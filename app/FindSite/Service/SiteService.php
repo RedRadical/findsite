@@ -9,9 +9,7 @@
 namespace FindSite\Service;
 
 
-use FindSite\Controller\BaseController;
-
-class SiteService extends BaseController{
+class SiteService extends BaseService{
 
     function __construct(){
         parent::__construct();

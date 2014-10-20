@@ -1,7 +1,7 @@
 <?php
 include(VIEW_SHARED_PATH . 'header.php');
 ?>
-<div class="content">
+<div id="main" class="content" data-controller="add-site">
     <div class="container list-a-site">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
@@ -9,7 +9,7 @@ include(VIEW_SHARED_PATH . 'header.php');
                 <form id="form-addsite" class="form-horizontal" role="form">
                     <div class="form-group">
                             <select data-bind="value: siteType" class="form-control">
-                                <option value="0">Type</option>
+                                <option value="">Type</option>
                                 <option value="1">House</option>
                                 <option value="2">Unit</option>
                                 <option value="3">Apartment</option>
@@ -33,14 +33,12 @@ include(VIEW_SHARED_PATH . 'header.php');
 
                     </div>
                     <div class="form-group">
-
-                            <select data-bind="value: daStatus" class="form-control">
-                                <option value="">DA status</option>
-                                <option value="">Raw</option>
-                                <option value="">Approved</option>
-                                <option value="">Pending</option>
-                            </select>
-
+                        <select data-bind="value: daStatus" class="form-control">
+                            <option value="">DA status</option>
+                            <option value="1">Raw</option>
+                            <option value="2">Approved</option>
+                            <option value="3">Pending</option>
+                        </select>
                     </div>
                     <div class="form-group">
 

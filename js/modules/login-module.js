@@ -27,7 +27,7 @@ define(['require',
     function login(){
         if (userViewModel.errors().length == 0) {
             userService.login(userViewModel, function(data){
-                if (data.errorCode > 0) {
+                if (data.error) {
                     alert(data.message);
                 } else {
                     window.location.href = '/user';

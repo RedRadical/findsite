@@ -28,14 +28,10 @@ define(['require',
         ko.applyBindings(siteViewModel, $addSiteForm[0]);
     }
 
-    function clean() {
-        ko.cleanNode($addSiteForm[0]);
-    };
-
     function addSite(){
         if (siteViewModel.errors().length == 0) {
             siteService.addSite(siteViewModel, function(data){
-                if (data.errorCode > 0) {
+                if (data.error) {
                     alert(data.message);
                 } else {
                     window.location.href = '/site';
@@ -47,5 +43,4 @@ define(['require',
     }
 
     exports.init = init;
-    exports.clean = clean;
 });

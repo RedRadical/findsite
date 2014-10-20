@@ -36,6 +36,11 @@ define(['require',
                     siteController.init();
                 });
                 break;
+            case 'add-site':
+                require(['add-site-controller'], function (addSiteController) {
+                    addSiteController.init();
+                });
+                break;
             case 'site-list':
                 require(['site-list-controller'], function (siteListController) {
                     siteListController.init();

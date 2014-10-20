@@ -44,6 +44,7 @@ class SiteController extends BaseController{
                 'dastatus' => $this->requestBody['daStatus'],
                 'price'=> $this->requestBody['price'],
                 'description'=> $this->requestBody['description'],
+                'user_id' => 1
             );
 
             $result = $this->siteService->create($site);
