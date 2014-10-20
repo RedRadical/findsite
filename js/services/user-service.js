@@ -14,5 +14,19 @@ define(['require',
             }
         });
     }
+
+    function login(user, callback) {
+        $.ajax({
+            url: '/user/login',
+            data: ko.toJSON(user),
+            type: 'POST',
+            contentType: 'application/json',
+            success: function (data) {
+                callback(data);
+            }
+        });
+    }
+
     exports.register = register;
+    exports.login = login;
 });

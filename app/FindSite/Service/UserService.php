@@ -24,4 +24,13 @@ class UserService extends BaseService {
         $data['date_updated'] = date('Y-m-d H:i:s');
         return $user->update($data);
     }
+
+    public function getUserByEmail($email){
+        $user = $this->db->user()->where("email", $email);
+        if($data = $user->fetch()){
+            return $data;
+        }else{
+            return null;
+        }
+    }
 } 

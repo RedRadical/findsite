@@ -27,10 +27,22 @@ class UserController extends BaseController{
         if($this->app->request->isGet()){
             $this->render('User/login');
         }else{
-            $this->requestBody();
+            $this->getRequestBody();
             $this->validate(array('email', 'password'));
+            $email = $this->requestBody['email'];
+            $password = $this->requestBody['password'];
 
             //TODO validate password
+            $user = $this->userService->getUserByEmail($email);
+            if($user){
+               if($password == $user['password']){
+                   return $this->success();
+               }else{
+                   throw new \Exception("Password is incorrect");
+               }
+            }else{
+                throw new \Exception("User doesn't exist");
+            }
         }
     }
 
@@ -39,7 +51,7 @@ class UserController extends BaseController{
             $this->render('User/register');
         }else{
             $this->getRequestBody();
-            $this->validate(array('firstName','lastName', 'email', 'password','siteType'));
+            $this->validate(array('firstName','lastName', 'email', 'password'));
 
             $user = array(
                 'first_name' => $this->requestBody['firstName'],

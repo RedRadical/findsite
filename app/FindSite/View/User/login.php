@@ -2,18 +2,18 @@
     <div class="popup-page">
         <div class="form-title">LOG IN TO FINDSITE</div>
         <div class="container-fluid">
-            <form class="form-horizontal popup-form" role="form">
+            <form id="form-login" class="form-horizontal popup-form" role="form">
                 <div class="form-group">
-                    <input type="email" class="form-control" id="firstname" placeholder="Your email">
+                    <input type="email" data-bind="value: email" name="email" class="form-control" placeholder="Your email">
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" id="suburb" placeholder="Your password">
+                    <input type="password" data-bind="value: password" name="password" class="form-control" placeholder="Your password">
                 </div>
                 <div class="form-group">
                     <a href="#" class="forgot-password">Forgot your password?</a>
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-default blubtn-long">LOG IN</button>
+                    <button type="submit" data-bind="click: login" class="btn btn-default blubtn-long">LOG IN</button>
                 </div>
             </form>
         </div>
