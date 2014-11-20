@@ -2,10 +2,7 @@
 include(VIEW_SHARED_PATH . 'header.php');
 ?>
     <div id="main" data-controller="home" class="content home">
-        <div class="home-warp">
-
-        </div>
-        <div class="home-search">
+        <div id="home-main" class="home-search">
             <div class="home-search-bar">
                 <div class="title">Find the Right Development Site</div>
                 <form class="home-search-form" role="form">

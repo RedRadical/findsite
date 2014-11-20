@@ -9,3 +9,16 @@
 @color-red: #e31f26;
 @color-yellow: #f4c900;
 @color-light-blue: #eef7fe;
+@color-form-input: #555;
+
+.placeholder(@color) {
+  ::-webkit-input-placeholder {
+    color: @color;
+  }
+  :-moz-placeholder {
+    color: @color;
+  }
+  ::-moz-placeholder {
+    color: @color;
+  }
+}

@@ -1,8 +1,7 @@
 "use strict";
 
 define(['require',
-    'exports',
-    'jquery-bx-slider'], function (require,exports,boxSlider) {
+    'exports'], function (require,exports) {
 
     var homeSearchViewModel;
 
@@ -17,12 +16,9 @@ define(['require',
 
         ko.applyBindings(homeSearchViewModel);
 
-        $('#homes-lider').bxSlider({
-            pager: false,
-            nextText: "&#xe080;",
-            prevText: "&#xe079;",
-            preloadImages: "all"
-        });
+        var homeHeight = $(window).height() - $('header').height();
+        $('#home-main').height(homeHeight);
+        $('.home').css('visibility', 'visible');
     }
 
     exports.init = init;
