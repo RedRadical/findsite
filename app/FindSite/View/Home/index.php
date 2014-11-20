@@ -74,9 +74,9 @@ include(VIEW_SHARED_PATH . 'header.php');
                 </div>
             </div>
         </div>
-        <div class="container-fluid home-second-part">
+        <div class="container home-second-part">
             <div class="row rowfour">
-                <div class="col-lg-8 custom-col">
+                <div class="col-md-8 custom-col">
                     <div class="col-combined">
                         <div class="description">
                             <div class="address">8-10 Park Road, Homebush NSW</div>
@@ -94,14 +94,14 @@ include(VIEW_SHARED_PATH . 'header.php');
                         <img src="images/image1.jpg" class="featured-img">
                     </div>
                 </div>
-                <div class="col-lg-4 custom-col">
+                <div class="col-md-4 custom-col">
                     <div class="col-three">
                         <img src="images/image1.jpg" class="featured-img">
                     </div>
                 </div>
             </div>
             <div class="row rowtwo">
-                <div class="col-lg-4 custom-col">
+                <div class="col-md-4 custom-col">
                     <div class="col-three">
                         <img src="images/image1.jpg">
                         <div class="description">
@@ -114,7 +114,7 @@ include(VIEW_SHARED_PATH . 'header.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 custom-col">
+                <div class="col-md-4 custom-col">
                     <div class="col-three">
                         <img src="images/image1.jpg">
                         <div class="description">
@@ -127,7 +127,7 @@ include(VIEW_SHARED_PATH . 'header.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 custom-col">
+                <div class="col-md-4 custom-col">
                     <div class="col-three">
                         <img src="images/image1.jpg">
                         <div class="description">
@@ -142,7 +142,7 @@ include(VIEW_SHARED_PATH . 'header.php');
                 </div>
             </div>
             <div class="row rowtwo">
-                <div class="col-lg-4 custom-col">
+                <div class="col-md-4 custom-col">
                     <div class="col-three">
                         <img src="images/image1.jpg">
                         <div class="description">
@@ -155,7 +155,7 @@ include(VIEW_SHARED_PATH . 'header.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 custom-col">
+                <div class="col-md-4 custom-col">
                     <div class="col-three">
                         <img src="images/image1.jpg">
                         <div class="description">
@@ -168,7 +168,7 @@ include(VIEW_SHARED_PATH . 'header.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 custom-col">
+                <div class="col-md-4 custom-col">
                     <div class="col-three">
                         <img src="images/image1.jpg">
                         <div class="description">

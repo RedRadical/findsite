@@ -7306,8 +7306,9 @@ footer .navbar {
   bottom: 15px;
 }
 .home-second-part {
-  margin: 10px 15px 10px 15px;
+  margin-top: 10px;
   margin-bottom: 40px;
+  max-width: 1170px;
 }
 .home-second-part .custom-col {
   padding-left: 5px;
