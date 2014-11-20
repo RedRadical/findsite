@@ -3,13 +3,11 @@ include(VIEW_SHARED_PATH . 'header.php');
 ?>
     <div id="main" data-controller="home" class="content home">
         <div class="home-warp">
-            <div class="inner-warp">
-                <h1>Find the Right Development Site</h1>
-                <p>We have over 20000 sites to choose from</p>
-            </div>
+
         </div>
         <div class="home-search">
             <div class="home-search-bar">
+                <div class="title">Find the Right Development Site</div>
                 <form class="home-search-form" role="form">
                     <div id="home-search-main">
                         <input class="form-control home-search-input" type="text" placeholder="Search by suburb or postcode">
@@ -62,116 +60,125 @@ include(VIEW_SHARED_PATH . 'header.php');
                         </div>
                     </div>
                 </form>
+                <div class="map-list-switch">
+                    <button type="submit" class="btn btn-primary blubtn-short active">
+                        MAP
+                    </button>
+                    <button type="submit" class="btn btn-primary blubtn-short">
+                        LIST
+                    </button>
+                </div>
                 <div class="btn-option">
                     <a href="javascript:;" data-bind="click: toggleOptions, visible: optionsIsShown()">Less options <span class="glyphicon glyphicon-chevron-up" data-bind=""></span></a>
                     <a href="javascript:;" data-bind="click: toggleOptions, visible: !optionsIsShown()" style="display:none;">More options <span class="glyphicon glyphicon-chevron-down" data-bind=""></span></a>
                 </div>
             </div>
         </div>
-        <div class="container home-second-part">
-            <div class="row rowone">
-                <div class="col-md-12">
-                    <ul id="homes-lider" class="col-one">
-                        <li><img class="rowone-img" src="images/homepic1.jpg"></li>
-                        <li><img class="rowone-img" src="images/homepic1.jpg"></li>
-                    </ul>
+        <div class="container-fluid home-second-part">
+            <div class="row rowfour">
+                <div class="col-lg-8 custom-col">
+                    <div class="col-combined">
+                        <div class="description">
+                            <div class="address">8-10 Park Road, Homebush NSW</div>
+                            <ul>
+                                <li>DA Approved residential development site</li>
+                                <li>32 Apartments</li>
+                                <li>Located 320M from the station</li>
+                                <li>20KM from the CBD</li>
+                            </ul>
+                            <div class="feature-sale">
+                                <p>For sale by EOI</p>
+                                <p>Closing Tuesday 18 November at 4PM</p>
+                            </div>
+                        </div>
+                        <img src="images/image1.jpg" class="featured-img">
+                    </div>
+                </div>
+                <div class="col-lg-4 custom-col">
+                    <div class="col-three">
+                        <img src="images/image1.jpg" class="featured-img">
+                    </div>
                 </div>
             </div>
             <div class="row rowtwo">
-                <div class="col-md-4">
+                <div class="col-lg-4 custom-col">
                     <div class="col-three">
                         <img src="images/image1.jpg">
-                        <p class="for-sale">For Sale</p>
-                        <p class="description"><span>$50,000,000</span> 6 Bed at Forvead Street</p>
-                        <p class="location"><span class="glyphicon glyphicon-map-marker"></span> Surry Hills</p>
-                        <p class="agent-info">Listed by <a href="#">Jodie Smith</a></p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="col-three">
-                        <img src="images/image1.jpg">
-                        <p class="for-sale">For Sale</p>
-                        <p class="description"><span>$50,000,000</span> 6 Bed at Forvead Street</p>
-                        <p class="location"><span class="glyphicon glyphicon-map-marker"></span> Surry Hills</p>
-                        <p class="agent-info">Listed by <a href="#">Jodie Smith</a></p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="col-three">
-                        <img src="images/image1.jpg">
-                        <p class="for-sale">For Sale</p>
-                        <p class="description"><span>$50,000,000</span> 6 Bed at Forvead Street</p>
-                        <p class="location"><span class="glyphicon glyphicon-map-marker"></span> Surry Hills</p>
-                        <p class="agent-info">Listed by <a href="#">Jodie Smith</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="row rowthree">
-                <div class="col-md-4">
-                    <div class="col-three">
-                        <img class="img-circle" src="images/sample10.jpg">
-                        <div class="custom-links-title">An agent that works for your</div>
-                        <div class="custom-links-content">Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</div>
-                        <a href="#" class="custom-link">Meet our agents<span class="glyphicon glyphicon-chevron-right"></span></a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="col-three">
-                        <img class="img-circle" src="images/sample11.jpg">
-                        <div class="custom-links-title">An agent that works for your</div>
-                        <div class="custom-links-content">Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</div>
-                        <div>Search <a href="#" class="custom-link">Rentals</a> or <a href="#" class="custom-link">Sales</a></div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="col-three">
-                        <img class="img-circle" src="images/sample12.jpg">
-                        <div class="custom-links-title">An agent that works for your</div>
-                        <div class="custom-links-content">Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</div>
-                        <a href="#" class="custom-link">Download our app <span class="glyphicon glyphicon-chevron-right"></span></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row rowfour">
-                <div class="col-md-8">
-                    <div class="col-combined">
-                        <div class="video-content">
-                            <iframe width="430" height="225" src="//www.youtube.com/embed/vp5bVdXOLs4" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-description">
-                            <div class="title">Accus. Ataero</div>
-                            <div>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</div>
+                        <div class="description">
+                            <div class="address">8-10 Park Road, Homebush NSW</div>
+
+                            <div class="feature-sale">
+                                <p>DA Pending, 25 Units, $108,000 Per Unit</p>
+                                <p>Listed by Regency Real Estate</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 custom-col">
                     <div class="col-three">
-                        <table class="social-network">
-                            <tr>
-                                <td>
-                                    <a href="#"><img src="images/icons/icon-fb.png"></a>
-                                </td>
-                                <td>
-                                    <a href="#"><img src="images/icons/icon-youtube.png"></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a href="#"><img src="images/icons/icon-wechat.png"></a>
-                                </td>
-                                <td>
-                                    <a href="#"><img src="images/icons/icon-linkedin.png"></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a href="#"><img src="images/icons/icon-gplus.png"></a>
-                                </td>
-                                <td>
-                                    <a href="#"><img src="images/icons/icon-instagram.png"></a>
-                                </td>
-                            </tr>
-                        </table>
+                        <img src="images/image1.jpg">
+                        <div class="description">
+                            <div class="address">8-10 Park Road, Homebush NSW</div>
+
+                            <div class="feature-sale">
+                                <p>DA Pending, 25 Units, $108,000 Per Unit</p>
+                                <p>Listed by Regency Real Estate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 custom-col">
+                    <div class="col-three">
+                        <img src="images/image1.jpg">
+                        <div class="description">
+                            <div class="address">8-10 Park Road, Homebush NSW</div>
+
+                            <div class="feature-sale">
+                                <p>DA Pending, 25 Units, $108,000 Per Unit</p>
+                                <p>Listed by Regency Real Estate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row rowtwo">
+                <div class="col-lg-4 custom-col">
+                    <div class="col-three">
+                        <img src="images/image1.jpg">
+                        <div class="description">
+                            <div class="address">8-10 Park Road, Homebush NSW</div>
+
+                            <div class="feature-sale">
+                                <p>DA Pending, 25 Units, $108,000 Per Unit</p>
+                                <p>Listed by Regency Real Estate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 custom-col">
+                    <div class="col-three">
+                        <img src="images/image1.jpg">
+                        <div class="description">
+                            <div class="address">8-10 Park Road, Homebush NSW</div>
+
+                            <div class="feature-sale">
+                                <p>DA Pending, 25 Units, $108,000 Per Unit</p>
+                                <p>Listed by Regency Real Estate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 custom-col">
+                    <div class="col-three">
+                        <img src="images/image1.jpg">
+                        <div class="description">
+                            <div class="address">8-10 Park Road, Homebush NSW</div>
+
+                            <div class="feature-sale">
+                                <p>DA Pending, 25 Units, $108,000 Per Unit</p>
+                                <p>Listed by Regency Real Estate</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
