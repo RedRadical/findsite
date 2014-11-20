@@ -16,6 +16,13 @@ define(['require',
 
         ko.applyBindings(homeSearchViewModel);
 
+        resizeHome();
+        $(window).resize(function(){
+            resizeHome();
+        })
+    }
+
+    function resizeHome(){
         var homeHeight = $(window).height() - $('header').height();
         $('#home-main').height(homeHeight);
         $('.home').css('visibility', 'visible');

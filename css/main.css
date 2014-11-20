@@ -6858,6 +6858,11 @@ body {
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
+  font-family: "open_sansregular", sans-serif;
+}
+strong {
+  font-family: "open_sansbold", sans-serif;
+  font-weight: normal;
 }
 .wrapper {
   min-height: 100%;
@@ -7145,7 +7150,7 @@ footer .navbar {
   background: url('../images/homebg.jpg') no-repeat bottom center;
   background-size: cover;
   position: relative;
-  height: 500px;
+  min-height: 500px;
 }
 .home-search .home-search-bar {
   background: rgba(255, 255, 255, 0.9);
@@ -7161,7 +7166,6 @@ footer .navbar {
   text-align: center;
   font-size: 50px;
   padding: 10px 0px 30px 0px;
-  font-family: "open_sansregular", sans-serif;
 }
 .home-search .home-search-bar .map-list-switch {
   position: absolute;
@@ -7281,7 +7285,6 @@ footer .navbar {
   color: #ffffff;
   width: 39%;
   padding-left: 8px;
-  font-family: "open_sansregular", sans-serif;
 }
 .home-second-part .rowtwo .col-three .description .address {
   font-size: 16px;
@@ -7311,6 +7314,8 @@ footer .navbar {
 .home-second-part .rowfour .col-combined .description {
   float: left;
   width: 35%;
+  height: 100%;
+  position: relative;
 }
 .home-second-part .rowfour .col-combined .description .address {
   background-color: #00a0e4;
@@ -7318,22 +7323,23 @@ footer .navbar {
   padding: 5px 0 5px 16px;
   box-shadow: 5px 5px 5px #a6a7a9;
 }
-.home-second-part .rowfour .col-combined .description ul {
-  padding-left: 15px;
-  margin-top: 5px;
-  list-style-type: none;
-  font-family: "open_sansregular", sans-serif;
+.home-second-part .rowfour .col-combined .description .details {
+  margin: 10px 0 0 15px;
   font-size: 10px;
   text-transform: uppercase;
+}
+.home-second-part .rowfour .col-combined .description ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 .home-second-part .rowfour .col-combined .description .feature-sale {
-  padding-left: 15px;
-  font-family: "open_sansbold", sans-serif;
-  font-size: 10px;
-  text-transform: uppercase;
+  margin-top: 10px;
 }
-.home-second-part .rowfour .col-combined .description .feature-sale p {
-  margin-bottom: 0px;
+.home-second-part .rowfour .col-combined .description .builder {
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
 }
 .home-second-part .rowfour .col-three {
   background-color: #ffffff;

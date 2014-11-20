@@ -77,15 +77,20 @@ include(VIEW_SHARED_PATH . 'header.php');
                     <div class="col-combined">
                         <div class="description">
                             <div class="address">8-10 Park Road, Homebush NSW</div>
-                            <ul>
-                                <li>DA Approved residential development site</li>
-                                <li>32 Apartments</li>
-                                <li>Located 320M from the station</li>
-                                <li>20KM from the CBD</li>
-                            </ul>
-                            <div class="feature-sale">
-                                <p>For sale by EOI</p>
-                                <p>Closing Tuesday 18 November at 4PM</p>
+                            <div class="details">
+                                <ul>
+                                    <li>- DA Approved residential development site</li>
+                                    <li>- 32 Apartments</li>
+                                    <li>- Located 320M from the station</li>
+                                    <li>- 20KM from the CBD</li>
+                                </ul>
+                                <div class="feature-sale">
+                                    <strong>For sale by EOI</strong><br/>
+                                    <strong>Closing Tuesday 18 November at 4PM</strong>
+                                </div>
+                                <div class="builder">
+                                    <img src="images/builder/knight-frank.jpg" alt=""/>
+                                </div>
                             </div>
                         </div>
                         <img src="images/air-view.jpg" class="featured-img">
@@ -93,7 +98,7 @@ include(VIEW_SHARED_PATH . 'header.php');
                 </div>
                 <div class="col-md-4 custom-col">
                     <div class="col-three">
-                        <iframe width="100%" height="100%" src="//www.youtube.com/embed/66sNL_2ztnw" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="100%" height="100%" src="//www.youtube.com/embed/OrIDTJH2ZZM?modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
