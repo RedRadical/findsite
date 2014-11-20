@@ -7251,37 +7251,45 @@ footer .navbar {
   margin-top: 10px;
   margin-bottom: 40px;
   max-width: 1170px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .home-second-part .custom-col {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 .home-second-part .rowtwo {
-  margin-bottom: 10px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+.home-second-part .rowtwo .custom-col {
+  padding-left: 3px;
+  padding-right: 3px;
 }
 .home-second-part .rowtwo .col-three {
   background-color: #414143;
-  padding: 6px;
-  height: 175px;
+  padding: 5px 7px;
+  height: 135px;
 }
 .home-second-part .rowtwo .col-three img {
   float: left;
-  width: 60%;
+  width: 61%;
   height: 100%;
 }
 .home-second-part .rowtwo .col-three .description {
   float: left;
   color: #ffffff;
-  width: 40%;
+  width: 39%;
   padding-left: 8px;
   font-family: "open_sansregular", sans-serif;
 }
 .home-second-part .rowtwo .col-three .description .address {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 10px;
+  line-height: 20px;
 }
 .home-second-part .rowtwo .col-three .description .feature-sale {
-  font-size: 13px;
+  font-size: 10px;
 }
 .home-second-part .rowtwo .col-three .description .feature-sale p {
   margin-bottom: 0px;
@@ -7292,7 +7300,7 @@ footer .navbar {
 .home-second-part .rowfour .col-combined {
   background-color: #ffffff;
   padding: 6px;
-  height: 246px;
+  height: 200px;
   posiiton: relative;
 }
 .home-second-part .rowfour .col-combined .featured-img {
@@ -7307,7 +7315,7 @@ footer .navbar {
 .home-second-part .rowfour .col-combined .description .address {
   background-color: #00a0e4;
   color: #ffffff;
-  padding: 8px 0px 8px 15px;
+  padding: 5px 0 5px 16px;
   box-shadow: 5px 5px 5px #a6a7a9;
 }
 .home-second-part .rowfour .col-combined .description ul {
@@ -7315,12 +7323,14 @@ footer .navbar {
   margin-top: 5px;
   list-style-type: none;
   font-family: "open_sansregular", sans-serif;
-  font-size: 12px;
+  font-size: 10px;
+  text-transform: uppercase;
 }
 .home-second-part .rowfour .col-combined .description .feature-sale {
   padding-left: 15px;
   font-family: "open_sansbold", sans-serif;
-  font-size: 12px;
+  font-size: 10px;
+  text-transform: uppercase;
 }
 .home-second-part .rowfour .col-combined .description .feature-sale p {
   margin-bottom: 0px;
@@ -7328,7 +7338,7 @@ footer .navbar {
 .home-second-part .rowfour .col-three {
   background-color: #ffffff;
   padding: 6px;
-  height: 246px;
+  height: 200px;
 }
 .home-second-part .rowfour .col-three img {
   width: 100%;

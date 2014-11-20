@@ -88,60 +88,19 @@ include(VIEW_SHARED_PATH . 'header.php');
                                 <p>Closing Tuesday 18 November at 4PM</p>
                             </div>
                         </div>
-                        <img src="images/image1.jpg" class="featured-img">
+                        <img src="images/air-view.jpg" class="featured-img">
                     </div>
                 </div>
                 <div class="col-md-4 custom-col">
                     <div class="col-three">
-                        <img src="images/image1.jpg" class="featured-img">
-                    </div>
-                </div>
-            </div>
-            <div class="row rowtwo">
-                <div class="col-md-4 custom-col">
-                    <div class="col-three">
-                        <img src="images/image1.jpg">
-                        <div class="description">
-                            <div class="address">8-10 Park Road, Homebush NSW</div>
-
-                            <div class="feature-sale">
-                                <p>DA Pending, 25 Units, $108,000 Per Unit</p>
-                                <p>Listed by Regency Real Estate</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 custom-col">
-                    <div class="col-three">
-                        <img src="images/image1.jpg">
-                        <div class="description">
-                            <div class="address">8-10 Park Road, Homebush NSW</div>
-
-                            <div class="feature-sale">
-                                <p>DA Pending, 25 Units, $108,000 Per Unit</p>
-                                <p>Listed by Regency Real Estate</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 custom-col">
-                    <div class="col-three">
-                        <img src="images/image1.jpg">
-                        <div class="description">
-                            <div class="address">8-10 Park Road, Homebush NSW</div>
-
-                            <div class="feature-sale">
-                                <p>DA Pending, 25 Units, $108,000 Per Unit</p>
-                                <p>Listed by Regency Real Estate</p>
-                            </div>
-                        </div>
+                        <iframe width="100%" height="100%" src="//www.youtube.com/embed/66sNL_2ztnw" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
             <div class="row rowtwo">
                 <div class="col-md-4 custom-col">
                     <div class="col-three">
-                        <img src="images/image1.jpg">
+                        <img src="images/living-room.jpg">
                         <div class="description">
                             <div class="address">8-10 Park Road, Homebush NSW</div>
 
@@ -154,7 +113,7 @@ include(VIEW_SHARED_PATH . 'header.php');
                 </div>
                 <div class="col-md-4 custom-col">
                     <div class="col-three">
-                        <img src="images/image1.jpg">
+                        <img src="images/living-room.jpg">
                         <div class="description">
                             <div class="address">8-10 Park Road, Homebush NSW</div>
 
@@ -167,7 +126,48 @@ include(VIEW_SHARED_PATH . 'header.php');
                 </div>
                 <div class="col-md-4 custom-col">
                     <div class="col-three">
-                        <img src="images/image1.jpg">
+                        <img src="images/living-room.jpg">
+                        <div class="description">
+                            <div class="address">8-10 Park Road, Homebush NSW</div>
+
+                            <div class="feature-sale">
+                                <p>DA Pending, 25 Units, $108,000 Per Unit</p>
+                                <p>Listed by Regency Real Estate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row rowtwo">
+                <div class="col-md-4 custom-col">
+                    <div class="col-three">
+                        <img src="images/living-room.jpg">
+                        <div class="description">
+                            <div class="address">8-10 Park Road, Homebush NSW</div>
+
+                            <div class="feature-sale">
+                                <p>DA Pending, 25 Units, $108,000 Per Unit</p>
+                                <p>Listed by Regency Real Estate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 custom-col">
+                    <div class="col-three">
+                        <img src="images/living-room.jpg">
+                        <div class="description">
+                            <div class="address">8-10 Park Road, Homebush NSW</div>
+
+                            <div class="feature-sale">
+                                <p>DA Pending, 25 Units, $108,000 Per Unit</p>
+                                <p>Listed by Regency Real Estate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 custom-col">
+                    <div class="col-three">
+                        <img src="images/living-room.jpg">
                         <div class="description">
                             <div class="address">8-10 Park Road, Homebush NSW</div>
 
