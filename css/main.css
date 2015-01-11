@@ -6287,6 +6287,7 @@ button.close {
     display: none !important;
   }
 }
+/*# sourceMappingURL=bootstrap.css.map */
 /*!
  * Slider for Bootstrap
  *
@@ -6454,6 +6455,7 @@ button.close {
   border: 10px solid #fff;
   background: #fff;
   /*fix other elements on the page moving (on Chrome)*/
+
   -webkit-transform: translatez(0);
   -moz-transform: translatez(0);
   -ms-transform: translatez(0);
@@ -6706,6 +6708,7 @@ button.close {
   text-decoration: none;
   background: transparent url('../images/blank.gif');
   /* helps IE */
+
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   z-index: 8040;
 }
@@ -6799,6 +6802,7 @@ button.close {
   padding: 2px 20px;
   background: transparent;
   /* Fallback for web browsers that doesn't support RGBa */
+
   background: rgba(0, 0, 0, 0.8);
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -6835,11 +6839,13 @@ button.close {
     background-image: url('../images/fancybox_sprite@2x.png');
     background-size: 44px 152px;
     /*The size of the normal image, half the size of the hi-res image*/
+  
   }
   #fancybox-loading div {
     background-image: url('../images/fancybox_loading@2x.gif');
     background-size: 24px 24px;
     /*The size of the normal image, half the size of the hi-res image*/
+  
   }
 }
 * {
@@ -7144,7 +7150,7 @@ footer .navbar {
   background: url('../images/homebg.jpg') no-repeat bottom center;
   background-size: cover;
   position: relative;
-  min-height: 500px;
+  min-height: 460px;
 }
 .home-search .home-search-bar {
   background: rgba(255, 255, 255, 0.9);

@@ -23,7 +23,7 @@ define(['require',
     }
 
     function resizeHome(){
-        var homeHeight = $(window).height() - $('header').height();
+        var homeHeight = $(window).height() - $('header').height() - 250;
         $('#home-main').height(homeHeight);
         $('.home').css('visibility', 'visible');
     }
